@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* makes sure content fits to page size */
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: rgb(105, 106, 106);
+}
+
+p {
+    font-size: 28px;
+    font-family: "Cormorant Garamond", serif;
+    padding-top: 15px;
+    text-align: center;
+    color: white;
+}
+
+.cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nav {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 22%;
+}
+
+#nav a {
+    text-decoration: none;
+    font-family: "Cormorant Garamond", serif;
+    color: white;
+    line-height: 40px;
+    font-size: 22px;
+    z-index: 99;
+}
+
+#nav a:hover {
+    color: rgb(44, 44, 44);
+}
