@@ -79,6 +79,11 @@ nav a {
 /* media queries */
 
 @media screen and (max-width: 768px) {
+
+    .body {
+        overflow-x: auto;
+    }
+
     .categories {
         padding-top: 0;
         padding-bottom: 15px;
